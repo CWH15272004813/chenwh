@@ -1,0 +1,70 @@
+<div class="comment">
+    <img src="http://placehold.it/100x100" alt="img" width="100" height="100">
+    <div class="text">
+        <div class="name">小民 <a class="reply" href="#">回复</a></div>
+        <div class="date">2018-05-09 15:37:16</div>
+        这篇文章还行
+    </div>
+    <div class="comment sub">
+        <img src="http://placehold.it/100x100" alt="img" width="100" height="100">
+        <div class="text">
+            <div class="name">我是一个好人<a class="reply" href="#">回复</a></div>
+            <div class="date">2018-05-10 09:54:42</div>
+            我也认为这个文章可以
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="comment">
+    <img src="http://placehold.it/100x100" alt="img" width="100" height="100">
+    <div class="text">
+        <div class="name">小章 <a class="reply" href="#">Reply</a></div>
+        <div class="date">2018-05-09 15:37:16</div> 这篇文章写的还可以
+    </div>
+    <div class="comment sub">
+        <img src="http://placehold.it/100x100" alt="img" width="100" height="100">
+        <div class="text">
+            <div class="name">我是一个好人2 <a class="reply" href="#">Reply</a></div>
+            <div class="date">2018-05-10 09:59:06</div>
+            我也认为这个文章可以
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="comment">
+    <img src="http://placehold.it/100x100" alt="img" width="100" height="100">
+    <div class="text">
+        <div class="name">小程 <a class="reply" href="#">回复</a></div>
+        <div class="date">2018-05-09 15:37:16</div>
+        这篇文章还可以
+    </div>
+</div>
+
+
+var comment = '<div class="comment_form">'+
+             '<div class="title_content">'+
+                '<div class="text_content">留下你宝贵的意见</div>'+
+                '<div class="clear"></div>'+
+           '</div>'+
+            '<div id="comment_form">'+
+               ' <p class="form-group" id="contact-name">'+
+                   ' <label for="name">你的 昵称</label>'+
+                    '<input type="text" name="name" class="form-control name" id="inputSuccess" placeholder="Name*...">'+
+                     '<input type="hidden" name="id"  value="">'+
+                '</p>'+
+                '<p class="form-group" id="contact-email">'+
+                    '<label for="email">你的 邮箱</label>'+
+                    '<input type="text" name="email" class="form-control email" id="inputSuccess" placeholder="Email*...">'+
+                '</p>'+
+                '<p class="form-group" id="contact-message">'+
+                    '<label for="message">你的 内容</label>'+
+                    '<textarea name="message" cols="88" rows="6" class="form-control message" id="inputError" placeholder="Your Comment..."></textarea>'+
+                '</p>'+
+                '<input type="reset" name="reset" value="清空" class="reset">'+
+                '<button class="submit"  data-target=".bs-example-modal-sm">确认 评论</button>'+
+            '</div>'+
+            '<div class="clear"></div>'+
+             '</div>'
+
